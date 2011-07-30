@@ -171,6 +171,7 @@
 		3D90299B107B8788002CCA59 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D90299A107B8788002CCA59 /* Default.png */; };
 		3DCC16B01072109900661AC0 /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DCC16AF1072109900661AC0 /* 0.png */; };
 		3DD6927E0FCD60C800D6349F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DD6927D0FCD60C800D6349F /* SystemConfiguration.framework */; };
+		7050FE6113E43D970068C98A /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 7050FE6013E43D970068C98A /* README.markdown */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -359,6 +360,7 @@
 		3D90299A107B8788002CCA59 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = icons/Default.png; sourceTree = "<group>"; };
 		3DCC16AF1072109900661AC0 /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 0.png; path = icons/0.png; sourceTree = "<group>"; };
 		3DD6927D0FCD60C800D6349F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = /System/Library/Frameworks/SystemConfiguration.framework; sourceTree = "<absolute>"; };
+		7050FE6013E43D970068C98A /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -578,6 +580,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				7050FE6013E43D970068C98A /* README.markdown */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -652,7 +655,11 @@
 			isa = PBXProject;
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iKeePass" */;
 			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -810,6 +817,7 @@
 				3D124281101B786300A17C28 /* key.png in Resources */,
 				3DCC16B01072109900661AC0 /* 0.png in Resources */,
 				3D90299B107B8788002CCA59 /* Default.png in Resources */,
+				7050FE6113E43D970068C98A /* README.markdown in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
